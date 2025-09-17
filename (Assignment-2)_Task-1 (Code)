@@ -1,0 +1,10 @@
+i = int(input("Enter a number: "))
+
+if i % 2 == 0:
+    print(i,"is an even number.")
+else:
+    print(i, "is an odd number.")
+
+----------------------------> Functionality
+
+This Python program asks the user to enter a number and then checks whether the number is even or odd. It uses the modulo operator % to find the remainder when the number is divided by 2. If the remainder is 0, the number is even, and the program prints a message stating that the number is even. If the remainder is not 0, the number is odd, and the program prints a message stating that the number is odd. This is a simple example of using conditional statements and arithmetic operations to make decisions in Python.
