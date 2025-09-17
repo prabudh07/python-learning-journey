@@ -4,3 +4,32 @@ print("Addition:",n1+n2)
 print("Subtraction:",n1-n2)
 print("Multiplication:",n1*n2)
 print ("Division:", n1/n2)
+
+---------------> Functionality of the Code
+This Python code takes two numbers as input from the user, then performs and displays the results of addition, subtraction, multiplication, and division on those numbers.
+
+The code uses the input() function to prompt the user to enter two numbers.
+Each input is converted from a string to an integer using int() to allow mathematical operations.
+
+Four arithmetic operations are performed:
+
+Addition (n1 + n2)
+
+Subtraction (n1 - n2)
+
+Multiplication (n1 * n2)
+
+Division (n1 / n2)
+
+The print() function displays the results of each operation in the console.
+
+Example Output
+If the user enters n1= 5 and n2=10:
+
+Addition: 15
+
+Subtraction: -5
+
+Multiplication: 50
+
+Division:0.5
