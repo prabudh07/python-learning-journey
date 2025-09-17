@@ -1,0 +1,15 @@
+total_sum = 0
+for number in range(1, 51):
+    total_sum += number
+print("The sum of numbers from 1 to 50 is:", total_sum)
+
+------------------------------------------------------------> Functionality
+This program calculates the sum of all integers from 1 to 50 using a for loop:
+
+It first creates a variable "total_sum" initialized to 0. This variable acts as an accumulator to keep track of the running total.
+
+The for loop iterates through each number between 1 and 50 (both inclusive).
+
+Inside the loop, each number is added to total_sum, updating the accumulated sum as the loop progresses.
+
+After the loop completes, it prints the final value of total_sum, which is the sum of all numbers from 1 to 50.
